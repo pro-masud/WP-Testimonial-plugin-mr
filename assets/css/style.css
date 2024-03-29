@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/*******
+    Testimonial Slider Style Start
+********/
+.owl-carousel{
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-slider{
+    margin: 40px 0px;
+}
+
+.testimonial-single-slide{
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.testimonial-single-slide .user-image{
+    border-radius: 50%;
+    border: 10px solid #ccc;
+}
+
+.testimonial-single-slide h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+}
+
+.testimonial-single-slide p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+}
+
+.testimonial-single-slide ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.testimonial-single-slide ul li a{
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.testimonial-single-slide ul li a i{
+    color: #333;
+}
